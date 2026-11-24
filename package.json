@@ -1,0 +1,25 @@
+{
+  "name": "student-course-api",
+  "version": "1.0.0",
+  "description": "Layered Express API for student and course management with automated integration tests",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "jest --runInBand --verbose",
+    "start": "node src/server.js"
+  },
+  "jest": {
+    "cacheDirectory": "<rootDir>/.jest-cache"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "jest": "29.7.0",
+    "supertest": "^7.3.2"
+  }
+}
